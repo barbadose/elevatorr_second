@@ -6,7 +6,7 @@ class FlickerProvider with ChangeNotifier {
 
   Stream<String> directionStream() async* {
     while (true) {
-      await Future.delayed((const Duration(seconds: 1)), () {});
+      await Future.delayed((const Duration(milliseconds: 1800)), () {});
       if (changingElevationDiff > slowChangingElevationDiff) {
         // print('ascending');
         yield "Ascending";
