@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -53,6 +54,27 @@ class _MyHomePageState extends State<MyHomePage> {
   double pZeroMock = 1013.25;
   bool hasPlatformException = false;
   bool hasOtherError = false;
+
+  _PatternVibrate() {
+    HapticFeedback.mediumImpact();
+
+    sleep(
+      const Duration(milliseconds: 200),
+    );
+
+    HapticFeedback.mediumImpact();
+
+    sleep(
+      const Duration(milliseconds: 500),
+    );
+
+    HapticFeedback.mediumImpact();
+
+    sleep(
+      const Duration(milliseconds: 200),
+    );
+    HapticFeedback.mediumImpact();
+  }
 
   @override
   void initState() {
@@ -117,6 +139,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       onPressed: () {
                         try {
                           provider.resetPZeroValue();
+                          HapticFeedback.vibrate();
                         } catch (e) {
                           final snackBar = SnackBar(
                             action: SnackBarAction(
