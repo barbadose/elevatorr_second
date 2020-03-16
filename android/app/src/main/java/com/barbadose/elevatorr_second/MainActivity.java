@@ -1,4 +1,4 @@
-package com.example.elevatorr_second;
+package com.barbadose.elevatorr_second;
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity;
