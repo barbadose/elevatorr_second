@@ -24,4 +24,4 @@ For this application, the temperature lapse rate (the rate of temperature change
 
 ![](assets/screenshots/equation_new.jpg)
 
-
+Funny enough, even the app itself does not measure pressure in Torr.
