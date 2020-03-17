@@ -22,3 +22,5 @@ The readings from the highly sensitive smartphone barometer combined with other 
 The barometric formula, sometimes called the exponential atmosphere or isothermal atmosphere, is a formula used to model how the pressure (or density) of the air changes with altitude. The pressure drops approximately by 11.3 Pa per meter in first 1000 meters above sea level.
 For this application, the temperature lapse rate (the rate of temperature change with changes in altitude) was omitted.
 ![](assets/screenshots/equation.png)
+
+
