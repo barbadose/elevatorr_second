@@ -3,7 +3,7 @@
 Open code for ElevaTorr, a simple altimeter that gives good approximations 
 of elevation changes based on direct readings from the device's pressure sensor (barometer).
 
-Access to barometer is enabled using [enviro_sensors plugin package] (https://pub.dev/packages/enviro_sensors).
+Access to barometer is enabled using [enviro_sensors plugin package](https://pub.dev/packages/enviro_sensors).
 iOS is not supported in this version but will be in the future.
 
 ## How to use?
