@@ -1,16 +1,24 @@
-# elevatorr_second
+# ElevaTorr:
 
-A new Flutter project.
+Open code for ElevaTorr, a simple altimeter that gives good approximations 
+of elevation changes based on direct readings from the device's pressure sensor (barometer).
 
-## Getting Started
+Access to barometer is enabled using [enviro_sensors plugin package] (https://pub.dev/packages/enviro_sensors).
+iOS is not supported in this version but will be in the future.
 
-This project is a starting point for a Flutter application.
+## How to use?
 
-A few resources to get you started if this is your first Flutter project:
+A Google play link will be posted in coming days, download the app, the first altitude displayed 
+is a reasonable estimation of the elevation difference from sea level, this estimation, however, is not very accurate.
+Once you press the "reset" button to set the altimeter at 0, future changes in elevation are displayed, these 
+are pretty decent approximations and maintain an accuracy of 1-2 meters while temperature variations are not drastic.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![](assets/screenshots/app_gif.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## How does it work?
+
+The readings from the highly sensitive smartphone barometer combined with other constants using what is known as ["the barometric formula"](https://en.wikipedia.org/wiki/Barometric_formula).
+![](assets/screenshots/barometric_formula.png)
+The barometric formula, sometimes called the exponential atmosphere or isothermal atmosphere, is a formula used to model how the pressure (or density) of the air changes with altitude. The pressure drops approximately by 11.3 Pa per meter in first 1000 meters above sea level.
+For this application, the temperature lapse rate (the rate of temperature change with changes in altitude) was omitted.
+![](assets/screenshots/equation.png)
