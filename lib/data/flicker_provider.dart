@@ -8,6 +8,8 @@ class FlickerProvider with ChangeNotifier {
     while (true) {
       await Future.delayed((const Duration(milliseconds: 1800)), () {});
       if (changingElevationDiff > slowChangingElevationDiff) {
+        // TODO: bad logic, mandate a greater difference between the two variables
+        // TODO: i.e., changngElevationDiff - slowChangingElevationDiff > 1.000m
         // print('ascending');
         yield "Ascending";
       }

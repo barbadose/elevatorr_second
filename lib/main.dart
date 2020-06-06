@@ -114,7 +114,8 @@ class _MyHomePageState extends State<MyHomePage> {
             Image(
               height: 220,
               width: 220,
-              image: AssetImage('assets/elevator.jpeg'),
+              image: AssetImage('assets/elevator_new.jpg'),
+              // TODO: edit image to center along the horizontal line
             ),
             ElevationDifferenceStreamBuilder(
               pressureStream: stream,
@@ -201,4 +202,4 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-// TODO: add splash screen + icon and upload to google play.
+

@@ -68,6 +68,7 @@ class ElevationDifferenceStreamBuilder extends StatelessWidget {
                 case ConnectionState.done:
                   return Text('Stream has finished');
               }
+            
             }),
       ],
     );
