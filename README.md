@@ -1,3 +1,5 @@
+<a href="https://play.google.com/store/apps/details?id=com.barbadose.elevatorr_second"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height=60px /></a>
+
 # ElevaTorr:
 
 Code for ElevaTorr, a simple altimeter that gives good approximations 
@@ -8,7 +10,7 @@ iOS is not supported in this version but will be in the future.
 
 ## How to use?
 
-Download the app from <a href="https://play.google.com/store/apps/details?id=com.barbadose.elevatorr_second"><img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" height=60px /></a>, the first altitude displayed 
+Download the app from [Google Play](https://play.google.com/store/apps/details?id=com.barbadose.elevatorr_second), the first altitude displayed 
 is a reasonable estimation of the elevation difference from sea level, this estimation, however, is not very accurate.
 Once you press the "reset" button to set the altimeter at 0, future changes in elevation are displayed, these 
 are pretty decent approximations and maintain an accuracy of 1-2 meters while temperature variations are not drastic.
