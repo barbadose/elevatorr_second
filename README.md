@@ -13,7 +13,7 @@ is a reasonable estimation of the elevation difference from sea level, this esti
 Once you press the "reset" button to set the altimeter at 0, future changes in elevation are displayed, these 
 are pretty decent approximations and maintain an accuracy of 1-2 meters while temperature variations are not drastic.
 
-<img src="assets/screenshots/app_gif.gif" height="500"/>
+<img src="assets/screenshots/new_screenshots/app_gif.gif" height="500"/>
 
 ## How does it work?
 
